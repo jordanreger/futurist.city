@@ -29,6 +29,18 @@ body {
   body {
     width: 90%;
   }
+
+  header ul li {
+    padding-right: 4px !important;
+  }
+
+  header ul li a {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+    font-size: 1rem !important;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
@@ -86,6 +98,7 @@ header ul li a {
 
   color: #696969;
   font-family: Space Mono;
+  font-size: 1rem;
 
   cursor: pointer;
   user-select: none;
