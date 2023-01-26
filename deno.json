@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "start": "deno run -A build.ts && deno run -A main.ts"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "https://esm.sh/react@18.2.0"
+  }
+}

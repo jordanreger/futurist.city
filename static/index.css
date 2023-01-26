@@ -63,6 +63,14 @@ header {
   align-items: center;
 }
 
+hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 0;
+  height: 1px;
+  background: #424242;
+}
+
 footer {
   width: 100%;
   position: absolute;
@@ -134,6 +142,10 @@ article {
   border-radius: 0.5vh;
 }
 
+article img {
+  max-width: 100%;
+}
+
 .gradient {
   min-height: 25vh;
   display: flex;
@@ -194,6 +206,35 @@ article .body {
 
 article .body a {
   color: #FFE551;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  min-height: 100%;
+  user-select: none;
+}
+
+ul li {
+  display: inline-block;
+  padding-right: 8px;
+}
+
+ul li a {
+  color: #FFE551;
+  font-family: Space Mono;
+  font-size: 1rem;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+ul li a .arrow {
+  font-family: Noto Emoji;
 }
 
 article .body a:hover {
