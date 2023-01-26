@@ -208,35 +208,6 @@ article .body a {
   color: #FFE551;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  min-height: 100%;
-  user-select: none;
-}
-
-ul li {
-  display: inline-block;
-  padding-right: 8px;
-}
-
-ul li a {
-  color: #FFE551;
-  font-family: Space Mono;
-  font-size: 1rem;
-
-  cursor: pointer;
-  user-select: none;
-}
-
-ul li a:hover {
-  text-decoration: underline;
-}
-
-ul li a .arrow {
-  font-family: Noto Emoji;
-}
-
 article .body a:hover {
   text-decoration: underline;
 }

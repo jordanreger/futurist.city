@@ -29,7 +29,7 @@ export default function Projects() {
               All you have to do is add your JSX/TSX files to the <code>/pages</code> directory and run <code>deno task start</code>!
               <br/>
               <br/>
-              view the <a href="https://github.com/jordanreger/deno-react">source</a> or the <a href="https://deno-react.deno.dev">demo</a>.
+              read the <a href="/deno-react">docs</a> or view the <a href="https://github.com/jordanreger/deno-react">source</a>.
             </div>
           </article>
           <article>
@@ -49,6 +49,9 @@ export default function Projects() {
             <div className="description">is under construction...</div>
             <hr/>
             <div className="body">
+              crate used to be a web framework. it's changing into something more useful.
+              <br/>
+              <br/>
               visit the <a href="https://crate.land">site</a> or view the <a href="https://github.com/jordanreger/crate">source</a>.
             </div>
           </article>
