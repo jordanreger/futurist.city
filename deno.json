@@ -1,9 +1,10 @@
 {
   "tasks": {
-    "start": "deno run -A build.ts && deno run -A main.ts"
+    "start": "deno run -A --watch=static/,routes/ dev.ts"
   },
+  "importMap": "./import_map.json",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "https://esm.sh/react@18.2.0"
+    "jsxImportSource": "preact"
   }
 }
