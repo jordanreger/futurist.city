@@ -80,7 +80,6 @@ ul li a:hover {
 
 p {
   font-weight: 500;
-  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 700px) {
@@ -103,6 +102,10 @@ p {
   .enter-button {
     font-size: 1rem;
     padding: 0.5rem;
+  }
+
+  p {
+    font-size: 1rem;
   }
 }
 
@@ -127,6 +130,10 @@ p {
     font-size: 2rem;
     padding: 1rem;
   }
+
+  p {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 1300px) {
@@ -149,5 +156,9 @@ p {
   .enter-button {
     font-size: 2rem;
     padding: 1rem;
+  }
+
+  p {
+    font-size: 1.5rem;
   }
 }
