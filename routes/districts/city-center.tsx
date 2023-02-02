@@ -17,7 +17,7 @@ export default function CityCenter() {
           <div class="cityscape-frame">
             <img src="/cityscape-city_center.svg" class="cityscape" />
           </div>
-          <p>Welcome to the heart of it all. High end shops, restaurants, you name it. Everything is open 24/7 - no sleep for the wicked. Everyone who visits Futurist City stops by.</p>
+          <p>Welcome to the heart of it all. High end shops, restaurants, you name it. Everything is open 24/7 - no sleep for the wicked. Everyone who visits Futurist City stops by just to look.</p>
           <article>
             <h3>RAMEN BAR</h3>
             <p>Sit down, grab a bowl of ramen, and let the rain pass.</p>

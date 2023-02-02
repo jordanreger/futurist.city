@@ -5,7 +5,7 @@ export default function Districts() {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no" />
-        <title>DISTRICTS | FCPT</title>
+        <title>DISTRICTS | FUTURIST CITY PUBLIC TRANSIT</title>
         <link rel="preload" href="/index.css" as="style"></link>
         <link rel="stylesheet" media="all" href="/index.css" type="text/css"></link>
       </Head>
