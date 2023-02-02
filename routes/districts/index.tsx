@@ -12,7 +12,7 @@ export default function Districts() {
       <body>
         <main>
           <h1 id="districts-h1"><a href="/" class="enter-button">⟵ Back</a><br/>DISTRICTS</h1>
-          <p>Visit one of the many sprawling districts that make up Futurist City.</p>
+          <p>Visit one of the many sprawling districts that make up Futurist City:</p>
           <br/>
           <ul>
             <li>// <a href="/districts/city-center">CITY CENTER</a></li>

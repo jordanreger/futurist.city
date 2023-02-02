@@ -12,6 +12,7 @@ export default function Home() {
       <body>
         <main>
           <h1 class="title">FUTURIST<br/>CITY<br/>PUBLIC<br/>TRANSIT</h1>
+          <p>We welcome you to the greatest city ever made.</p>
           <br/>
           <a href="/districts" class="enter-button">Enter ⟶</a>
         </main>
