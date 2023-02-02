@@ -36,7 +36,7 @@ export default function CityCenter() {
       </Head>
       <body>
         <main>
-          <h1 id="districts-h1"><a href="/" class="enter-button">🡐 Back</a><br/>CITY CENTER</h1>
+          <h1 id="districts-h1"><a href="/" class="enter-button">⟵ Back</a><br/>CITY CENTER</h1>
           <br/>
           <div class="cityscape-frame">
             <img src="/cityscape-city_center.svg" class="cityscape" />

@@ -13,7 +13,7 @@ export default function Home() {
         <main>
           <h1 class="title">FUTURIST<br/>CITY<br/>PUBLIC<br/>TRANSIT</h1>
           <br/>
-          <a href="/districts" class="enter-button">Enter 🡒</a>
+          <a href="/districts" class="enter-button">Enter ⟶</a>
         </main>
       </body>
     </>

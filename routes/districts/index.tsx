@@ -11,7 +11,7 @@ export default function Districts() {
       </Head>
       <body>
         <main>
-          <h1 id="districts-h1"><a href="/" class="enter-button">🡐 Back</a><br/>DISTRICTS</h1>
+          <h1 id="districts-h1"><a href="/" class="enter-button">⟵ Back</a><br/>DISTRICTS</h1>
           <br/>
           <ul>
             <li>// <a href="/districts/city-center">CITY CENTER</a></li>
