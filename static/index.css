@@ -73,8 +73,8 @@ ul li a:hover {
 }
 
 .cityscape {
-  line-height: 1rem;
-  font-size: 1rem;
+  line-height: 1em;
+  font-size: 1.25em;
   display: inline;
   mix-blend-mode: exclusion;
   position: relative;
