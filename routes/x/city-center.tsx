@@ -27,20 +27,17 @@ const cityscape = `
 */
 
 export const handler: Handlers = {
-  async GET(_, ctx) {
-    try {
-      const get_streets_list = await fetch(`/streets?district=city-center`).then(res => res.json());
-      const streets: preact.JSX.Element[] = [];
-      get_streets_list.forEach((street: string) => {
-        streets.push(<li>// <a href={`/x/city-center/${street}`}>{street.replaceAll("-", " ").toLocaleUpperCase()}</a></li>);
-      })
+  async GET(req, ctx) {
+    const origin = new URL(req.url).origin;
+    const get_streets_list = await fetch(`${origin}/streets?district=city-center`).then(res => res.json());
+    const streets: preact.JSX.Element[] = [];
+    get_streets_list.forEach((street: string) => {
+      streets.push(<li>// <a href={`/x/city-center/${street}`}>{street.replaceAll("-", " ").toLocaleUpperCase()}</a></li>);
+    })
 
-      const streets_list = <ul>{streets}</ul>;
+    const streets_list = <ul>{streets}</ul>;
 
-      return ctx.render(streets_list);
-    } catch(error) {
-      return ctx.render(error);
-    }
+    return ctx.render(streets_list);
   }
 }
 
