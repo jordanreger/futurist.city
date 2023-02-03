@@ -29,8 +29,7 @@ const cityscape = `
 export const handler: Handlers = {
   async GET(req, ctx) {
     const origin = new URL(req.url).origin;
-    const get_streets_list = await fetch(`${origin}/streets?district=city-center`).then(res => res.json());
-    console.log(get_streets_list);
+    //const get_streets_list = await fetch(`${origin}/streets?district=city-center`).then(res => res.json());
     /*
     const streets: preact.JSX.Element[] = [];
     get_streets_list.forEach((street: string) => {
