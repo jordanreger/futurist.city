@@ -14,5 +14,5 @@ export const handler = async (req: Request, _ctx: HandlerContext): Promise<Respo
     }
   }
 
-  return new Response(JSON.stringify(streets));
+  return new Response(JSON.stringify(streets), { headers: { "content-type": "application/json" }});
 };
