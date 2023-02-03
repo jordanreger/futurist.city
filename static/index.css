@@ -73,7 +73,7 @@ ul li a:hover {
 }
 
 .cityscape {
-  font-size: 1rem;
+  font-size: 1.5vh;
   mix-blend-mode: exclusion;
   position: relative;
   background: linear-gradient(#FFE551, #FFE551);
