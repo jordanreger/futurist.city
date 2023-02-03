@@ -39,7 +39,7 @@ export const handler: Handlers = {
 
       return ctx.render(streets_list);
     } catch(error) {
-      return ctx.render(null);
+      return ctx.render(error);
     }
   }
 }
