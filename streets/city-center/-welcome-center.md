@@ -1,0 +1,1 @@
+Welcome to Futurist City! We're very happy to have you here. This town was just founded, so we're working on developing it. If you'd like to develop some land or set up shop, [submit a proposal](https://github.com/jordanreger/futurist.city/issues) and City Council will review it!
