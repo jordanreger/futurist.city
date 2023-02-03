@@ -82,6 +82,10 @@ ul li a:hover {
   -webkit-text-fill-color: transparent;
   width: max-content;
   letter-spacing: -1.5px;
+  animation-name: scroll;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes scroll {
@@ -124,7 +128,7 @@ p {
   }
 
   .cityscape {
-    animation-duration: 45s;
+    animation-duration: 15s;
   }
 }
 
@@ -155,7 +159,7 @@ p {
   }
 
   .cityscape {
-    animation-duration: 50s;
+    animation-duration: 20s;
   }
 }
 
@@ -186,6 +190,6 @@ p {
   }
 
   .cityscape {
-    animation-duration: 120s;
+    animation-duration: 30s;
   }
 }
