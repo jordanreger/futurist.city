@@ -15,7 +15,7 @@ export const handler: Handlers = {
   }
 }
 
-export default function AboutPage(props: PageProps) {
+export default function StreetPage(props: PageProps) {
   const street_name = props.params.street.replaceAll("-", " ").toLocaleUpperCase();
   if(!props.data) {
     return (

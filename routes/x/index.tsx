@@ -1,6 +1,21 @@
 import { Head } from "$fresh/runtime.ts";
+import { Handlers, PageProps } from "$fresh/server.ts";
 
-export default function Districts() {
+export const handler: Handlers = {
+  async GET(req, ctx) {
+    const path = new URL(req.url).pathname;
+    const get_districts_list = await fetch(`https://api.futurist.city/`).then(res => res.json());
+    const districts: preact.JSX.Element[] = [];
+    get_districts_list.forEach((district: string) => {
+      districts.push(<li>{"//"} <a href={`/x/${district}`}>{district.replaceAll("-", " ").toLocaleUpperCase()}</a></li>);
+    })
+
+    const districts_list = <ul>{districts}</ul>;
+    return ctx.render(districts_list);
+  }
+}
+
+export default function Districts({ data }: PageProps) {
   return (
     <>
       <Head>
@@ -14,9 +29,7 @@ export default function Districts() {
           <h1 id="districts-h1"><a href="/" class="enter-button">⟵ Back</a><br/>DISTRICTS</h1>
           <p>Visit one of the many sprawling districts that make up Futurist City:</p>
           <br/>
-          <ul>
-            <li>// <a href="/x/city-center">CITY CENTER</a></li>
-          </ul>
+          {data}
         </main>
       </body>
     </>

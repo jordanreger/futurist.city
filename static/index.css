@@ -125,6 +125,10 @@ p {
     font-size: 3rem;
   }
 
+  main h2 {
+    font-size: 2rem;
+  }
+
   main h3 {
     font-size: 1.5rem;
   }
@@ -156,6 +160,10 @@ p {
     font-size: 6rem;
   }
 
+  main h2 {
+    font-size: 4rem;
+  }
+
   main h3 {
     font-size: 3rem;
   }
@@ -185,6 +193,10 @@ p {
 
   main h1 {
     font-size: 6rem;
+  }
+
+  main h2 {
+    font-size: 4rem;
   }
 
   main h3 {
