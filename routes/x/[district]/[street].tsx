@@ -6,7 +6,7 @@ export const handler: Handlers = {
   async GET(_, ctx) {
     const { district, street } = ctx.params;
     try {
-      const file = await Deno.readTextFile(`./streets/${district}/${street}.md`);
+      const file = await fetch(`https://api.futurist.city/${district}/${street}`).then(res => res.text());
       const content = Marked.parse(file).content;
       return ctx.render(content);
     } catch(error) {
